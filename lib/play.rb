@@ -38,7 +38,6 @@ end
 def play(board)
   turns = 9
   counter = 0
-  loop do
     counter = counter + 1
     until counter = 9
     turn(board)
