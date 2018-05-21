@@ -40,3 +40,4 @@ def play(board)
     until counter == 0
     puts turn
   end
+end
