@@ -36,7 +36,7 @@ def turn(board)
 end
 
 def play(board)
-  turns = 3
+  turns = 9
   counter = 0
   loop do
     counter = counter + 1
@@ -45,8 +45,3 @@ def play(board)
 end
 
 
-board = ["X"," "," "," "," "," "," "," "," "]
-puts "Welcome to Tic Tac Toe!"
-puts display_board(board)
-#turn(board)
-play(board)
