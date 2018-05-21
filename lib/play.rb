@@ -42,3 +42,4 @@ def play(board)
      counter = counter + 1
      turn(board)
 end
+end
