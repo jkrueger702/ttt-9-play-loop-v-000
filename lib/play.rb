@@ -36,10 +36,17 @@ def turn(board)
 end
 
 def play(board)
-  turns = 9
-   counter = 0
-   loop do
-     counter = counter + 1
-     turn(board)
+  turns = 3
+  counter = 0
+  loop do
+    counter = counter + 1
+    turn(board)
+  end
 end
-end
+
+
+board = ["X"," "," "," "," "," "," "," "," "]
+puts "Welcome to Tic Tac Toe!"
+puts display_board(board)
+#turn(board)
+play(board)
